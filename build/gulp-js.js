@@ -18,7 +18,7 @@ gulp.task('build:js', ['clean:js'], function(){
     .pipe(sourcestream('app.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({ loadMaps: true }))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('dist/js'));
 });
