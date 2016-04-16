@@ -1,3 +1,0 @@
-# javascript-play
-
-javascript playground
