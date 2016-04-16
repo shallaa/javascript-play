@@ -130,16 +130,14 @@ body {
   margin: 0;
   padding: 0; }
 
-h1, h2 {
-  position: absolute;
-  top: -900em;
-  left: -900em; }
-
 #header {
   height: 55px;
   background: #fff;
   box-shadow: 0 0 5px rgba(57, 70, 78, 0.2);
   z-index: 100; }
+  #header #title {
+    margin: 0;
+    padding: 12px 0 0 14px; }
 
 #aside {
   padding: 0;
