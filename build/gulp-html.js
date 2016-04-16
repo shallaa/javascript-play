@@ -8,7 +8,7 @@ gulp.task('clean:html', function(){
 
 gulp.task('build:html', ['clean:html'], function(){
   gulp.src('src/index.html')
-    .pipe(replace('___VERSION___'), Date.now())
+    .pipe(replace('___VERSION___', Date.now() + ''))
     .pipe(gulp.dest('dist'))
 });
 
