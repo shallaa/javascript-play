@@ -1,0 +1,16 @@
+{
+  "name": "javascript-playground",
+  "version": "0.1.0",
+  "description": "javascript playground",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "javascript",
+    "playground"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
