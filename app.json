@@ -1,0 +1,8 @@
+{
+  "name": "javascript playground",
+  "description": "javascript playground",
+  "repository": "https://github.com/shallaa/javascript-play",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["javascript", "playground"],
+  "image": "heroku/nodejs"
+}
