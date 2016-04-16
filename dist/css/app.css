@@ -139,18 +139,17 @@ body {
     margin: 0;
     padding: 12px 0 0 14px; }
 
-#aside {
-  padding: 0;
-  margin: 0;
-  font-size: 11px;
-  width: 190px;
-  position: absolute;
-  top: 55px;
-  left: 0;
-  border-right: solid 1px #e9eced;
-  height: calc(100vh - 55px);
-  background: #fff;
-  z-index: -1; }
-
-#article {
-  margin-left: 190px; }
+#content {
+  position: relative; }
+  #content fieldset.column {
+    display: block;
+    height: 100%; }
+  #content .left {
+    position: absolute;
+    left: 0; }
+  #content .right {
+    position: absolute;
+    right: 0; }
+  #content #handler_vertical {
+    width: 8px;
+    height: 100%; }
