@@ -17,7 +17,7 @@
     "playground"
   ],
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.13.4"
   }
 }
